@@ -1,0 +1,123 @@
+:root {
+  --green: #2e7d32;
+  --light-green: #a5d6a7;
+  --dark: #1b5e20;
+  --tan: #d7ccc8;
+  --cream: #f1f8e9;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--cream);
+  color: #1b1b1b;
+}
+
+body {
+  background-image:url('WhatsApp Image 2025-06-09 at 18.04.23_1f07a5c5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: var(--green);
+  color: white;
+}
+
+.logo img {
+  height: 65px;
+}
+
+.judul {
+  text-align: left;
+  font-size: 40px;
+  color: var(--dark);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.judul {
+  text-align: center;
+}
+
+.maskot-img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 8px 14px;
+  background-color: var(--dark);
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: var(--light-green);
+  color: #1b1b1b;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 40px 30px;
+}
+
+.video1 {
+    -webkit-align-items: center;
+  margin-left: 200px;
+}
+
+
+.box {
+  background-color:#D5A473;
+  border-radius: 15px;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.canva-embed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* tengah horizontal */
+  justify-content: center;  /* tengah vertikal jika ada tinggi penuh */
+  padding: 40px 0;
+  text-align: center;
+}
+
+.canva-section iframe {
+  -webkit-align-items: center;
+  margin-left: 300px;
+}
+
+.bottom {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color:#1b5e20;
+  padding: 15px;
+  text-align: left;
+  font-size: 17px;
+  color: #ffffff;
+}
